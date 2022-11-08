@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-size: cover;
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+    font-family: Pretendard;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height;
+}
+
+.logo-img {
+    display: block;
+    margin: 72px 0 60px;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    width: 400px;
+    height: 360px;
+    box-shadow: 20px 20px 60px 10px #374B7C66;
+    border-radius: 16px;
+}
+
+.timer .timer-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    width: 312px;
+    border-bottom: 1px solid #3D538A;
+    ;
+    padding-top: 48px;
+    padding-bottom: 23px;
+}
+
+.timer .timer-time {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 32px;
+}
+
+.timer .timer-time .time-warpper {
+    text-align: center;
+}
+
+.timer .timer-time .time-text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #A5B6EE;
+}
+
+.timer .timer-time .time-box {
+    display: inline-block;
+    background-image: url(src/img/box.png);
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    padding: 16px 0;
+}
+
+
+.timer .btn-wrapper {
+    display: flex;
+    gap: 12px;
+    margin: 56px 0 40px;
+}
+
+.timer .timer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-image: url(src/img/Rectangle\ 15.png);
+    width: 112px;
+    height: 48px;
+    box-shadow: 1px 1px 1px 0px #0000000D inset;
+    color: #617199;
+    opacity: 3.0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    filter: brightness(70%)
+}
+
+footer {
+    padding: 60px 0 103px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #8596BF;
+}
